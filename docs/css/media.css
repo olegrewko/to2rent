@@ -1,0 +1,146 @@
+@media (max-width: 1260px) {
+   
+}
+
+@media (max-width: 1000px) {
+     .popular__inner {
+    flex-wrap: wrap;
+   
+}
+    .menu__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+		}
+    .search__form {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   padding: 20px 10px;
+}
+    .footer__form {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   padding: 20px 10px;
+}
+    .reason__inner
+
+ {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 500px; */
+    justify-items: center;
+    align-items: center;
+		}
+   
+}
+
+@media (max-width: 900px) {
+  .best__title {
+    position: relative;
+    padding-top:  58px;
+    margin-left:  350px;
+
+    max-width: 492px;
+    min-height: 200px;
+}
+.best__link {
+    display: inline-block;
+position: absolute;
+margin-top:  50px;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%); 
+}
+.about__inner {
+    
+       display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 850px 450px 600px;
+   
+   
+
+}
+ .best__title-text{
+    text-align: center;
+    margin:  0 ; 
+ }
+
+ 
+
+}
+
+@media (max-width: 850px) {
+   .footer__top-inner{
+     display: grid;
+    grid-template-columns:  1fr ;
+    grid-template-rows: 250px 250px ;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+		}
+
+ 
+}
+
+@media (max-width: 730px) {
+    .best__title {
+    position: relative;
+    padding-top:  18px;
+    margin-left:  10px;
+
+    max-width: 492px;
+    min-height: 200px;
+}
+  .footer__form-input{
+    padding: 5px;
+    margin: 5px;
+    max-width: 201px;
+  }
+  .footer__form {
+     display: grid;
+  grid-template-columns: 1fr;
+   justify-content: center;
+   align-items: center;
+
+  }
+
+}
+
+
+@media (max-width: 500px) {
+      .best__title {
+    position: relative;
+    padding-top:  18px;
+    margin-left:  10px;
+
+    max-width: 492px;
+    min-height: 300px;
+}
+ 
+}
+
+
+@media (max-width: 460px) {
+  .our-managers-items {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:  350px;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+  .blog__list {
+    max-width: 311px;
+    min-height: 401px;
+} 
+
+}
